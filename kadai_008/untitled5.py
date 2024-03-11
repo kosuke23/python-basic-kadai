@@ -9,9 +9,10 @@ Original file is located at
 
 import random
 
-var = random.randint(1, 50)
+var = random.randint(1, 30)
 
 print(var)
+
 
 if var % 15 == 0:
     print("FizzBuzz")
