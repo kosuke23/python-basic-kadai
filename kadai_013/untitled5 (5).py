@@ -8,8 +8,8 @@ Original file is located at
 """
 
 def purchase(price, tax):
-    tax = price * 0.1
-    total = price + tax
+    tax_account = price * ( tax / 100 )
+    total = price + tax_account
     return total
 
 prices = purchase(1000, 10)
